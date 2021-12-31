@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-Monitoramento_Worker-9D681391-1AEC-432B-8A41-DDB0CF7339DD</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.20" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.20" />
+  </ItemGroup>
+</Project>
